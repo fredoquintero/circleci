@@ -33,4 +33,4 @@ workflows:
       # In this case, a user is manually triggering the deploy job.
       - test1:
           requires:
-            - build
+            - hold
